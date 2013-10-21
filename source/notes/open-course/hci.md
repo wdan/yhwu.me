@@ -1,16 +1,17 @@
 ---
-layout: default
-published: false
+layout: page
+title: "HCI - UCSD"
+date: 2013-10-21 21:37
 comments: true
-title: "Human Computer Interaction - UCSD"
+sharing: true
+footer: true
 ---
 
-Course link: <https://class.coursera.org/hci-004/class>
 ##Week 1
 ### Participant Observation
 1. You can observe a lot just by watching.
 2. Deep Hanging out
-3. Look for workarounds & hacks 
+3. Look for workarounds & hacks
 4. What is valuable is what people do, rather than what people say
 
 ### Interview with people
