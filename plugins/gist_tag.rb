@@ -106,10 +106,7 @@ module Jekyll
       https.verify_mode = OpenSSL::SSL::VERIFY_NONE
       request           = Net::HTTP::Get.new raw_uri.request_uri
       data              = https.request request
-<<<<<<< HEAD
-=======
       data.body.to_s
->>>>>>> master-2.5
     end
   end
 
