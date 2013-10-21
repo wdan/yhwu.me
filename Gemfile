@@ -10,10 +10,6 @@ group :development do
   gem 'sass-globbing', '~> 1.0.0'
   gem 'rubypants', '~> 0.2.0'
   gem 'stringex', '~> 1.4.0'
-<<<<<<< HEAD
-  gem 'liquid', '~> 2.3.0'
-  gem 'directory_watcher', '1.4.1'
-=======
 
   gem 'guard-jekyll-plus', '~> 1.4.6'
   gem 'guard-compass', '~> 0.0.8'
@@ -22,7 +18,6 @@ group :development do
   gem 'rb-fchange', '~> 0.0.6'
 
   gem 'jekyll-page-hooks'
->>>>>>> master-2.5
 end
 
 gem 'rack', '~> 1.5.2'
