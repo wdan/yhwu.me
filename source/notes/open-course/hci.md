@@ -1,3 +1,11 @@
+---
+layout: default
+published: false
+comments: true
+layout: post
+title: "Human Computer Interaction - UCSD"
+---
+
 Course link: <https://class.coursera.org/hci-004/class>
 ##Week 1
 ### Participant Observation

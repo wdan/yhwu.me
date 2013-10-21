@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 笔记
+title: Notes
 footer: false
 ---
 
