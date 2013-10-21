@@ -2,7 +2,6 @@
 layout: default
 published: false
 comments: true
-layout: post
 title: "Human Computer Interaction - UCSD"
 ---
 
