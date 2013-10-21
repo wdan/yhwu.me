@@ -33,8 +33,9 @@ footer: true
 
 ### Creating Design Goals
 1. All design is redesign
-2. Make it explicit
+2. Activity Analysis(Make it explicit)
     1. steps
     2. artifact
     3. goals
     4. pain points
+3. Consistently grounding people's different activities
