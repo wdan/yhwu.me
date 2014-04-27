@@ -6,10 +6,10 @@ require "guard/cli"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "wdan@o.stdyun.net"
+ssh_user       = "yhwu@digital"
 ssh_port       = "22"
-document_root  = "~/blog.yhwu.me/"
-rsync_delete   = false
+document_root  = "~/www/blog.yhwu.me/"
+rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
 
