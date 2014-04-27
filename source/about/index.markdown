@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Me"
-comments: true
+comments: false
 footer: false
 ---
 
