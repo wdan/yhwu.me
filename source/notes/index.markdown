@@ -10,3 +10,6 @@ footer: false
 ##Open Course
 
  - [Human Computer Interaction](/notes/open-course/hci.html)
+
+##Research Topics
+ - [Social Network Analysis](/notes/research-topics/sna.html)
