@@ -9,8 +9,6 @@ categories: [Research, Visualization, Paper notes]
 
 This is a paper note of 'Process and Pitfalls in Writing Information Visualization Research Papers' by [Tamara Munzner](http://www.cs.ubc.ca/~tmm). This paper categorizes different types of papers presented in the area of Information Visualization and discusses a set of common pitfalls that recurs in many rejected papers.
 
-<!--more-->
-
 > A project should begin with a careful consideration of  the type of paper that is the desired outcome.
 
 ##Paper Types
@@ -22,6 +20,8 @@ Technique papers focus on novel algorithms and an implementation is expected.
 Typical results would be algorithm complexity analysis, quantitative measurements of the implementation, and a qualitative discussion of images created by the new algorithm.
 
 There is very little or no design justification for whether the technique is actually suitable for the proposed problem domain: there is an implicit assumption that the previous cited work makes such arguments.
+
+<!--more-->
 
 ###Design Study
 

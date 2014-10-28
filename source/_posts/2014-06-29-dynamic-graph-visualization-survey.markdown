@@ -9,8 +9,6 @@ categories: [Research, Visualization, Paper notes]
 
 This is a paper note of 'The State of the Art in Visualizing Dynamic Graphs' that was published at EuroVis'14. Its online web tool can be accessed as [dynamicgraphs.fbeck.com](http://dynamicgraphs.fbeck.com).
 
-<!--more-->
-
 ##Data Source
 
 The authors collected 129 papers about dynamic graph from 1992 to 2014. The journals and conferences include:
@@ -29,6 +27,8 @@ The authors collected 129 papers about dynamic graph from 1992 to 2014. The jour
 - *IV (International Conference on Information Visualization)*
 - *EuroVis*
 - *GD (Symposium on Graph Drawing)*
+
+<!--more-->
 
 ##Data Analysis
 
