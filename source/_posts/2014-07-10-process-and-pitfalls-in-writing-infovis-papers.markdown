@@ -9,7 +9,7 @@ categories: [Research, Visualization, Paper notes]
 
 This is a paper note of 'Process and Pitfalls in Writing Information Visualization Research Papers' by [Tamara Munzner](http://www.cs.ubc.ca/~tmm). This paper categorizes different types of papers presented in the area of Information Visualization and discusses a set of common pitfalls that recurs in many rejected papers.
 
-> A project should begin with a careful consideration of  the type of paper that is the desired outcome.
+*A project should begin with a careful consideration of  the type of paper that is the desired outcome.*
 
 ##Paper Types
 
