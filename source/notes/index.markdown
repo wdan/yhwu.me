@@ -6,6 +6,9 @@ comments: false
 sharing: true
 footer: false
 ---
+##Visualization
+
+ - [Harvard CS171](/notes/visualizations/cs171.html)
 
 ##Open Course
 

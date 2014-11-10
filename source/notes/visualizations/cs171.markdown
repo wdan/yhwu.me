@@ -1,0 +1,95 @@
+---
+layout: page
+title: "Harvard CS171"
+date: 2014-11-10 19:16
+comments: true
+sharing: true
+footer: true
+---
+Harvard CS171 - Visualization by Hanspeter Pfister
+
+##Lec.1 Introduction
+
+###What is visualization?
+
+To convey information through graphical representations of data
+
+###Visualization goals:
+
+- **Record** information
+- **Analyze** data to support reasoning
+  * Develop and assess hypotheses(visual exploration)
+  * Find patterns and discover errors data
+- **Communicate** information to others
+  * Share and persuade(visual explanation)
+
+##Lec.2 Design Principles
+
+Clutter and confusion are not attributes of information, they are failures of
+design - E.Tufte
+
+###Tufte's Integrity Principles:
+
+- Show data variation, not design variation
+- Clear, detailed, and through labeling and approriate scales
+- Size of the graphcis effect should be directly proportinal to the numerical quantities
+
+###Tufte's Design Principles:
+
+- Maximize data-ink ratio
+- Avoid chart junk
+- Increase data density
+- Layering of information
+
+##Lec.3 Data Models & Visual Variables
+
+###Data Types:
+
+- **Nominal(Categorical)**
+  * Are = or $\neq$ to other values
+- **Ordinal**
+  * Obey a < relationship
+<!--- -->
+- **Quantitative**
+  * Can do arithmetic on them
+  * Interval (no "true zero"): dates, location. Cannot compare directly. Only differences can be compared.
+  * Ratio (zero fixed): Origin is meaningful, can measure ratios & proportions.
+
+###Data vs. Conceptual Model:
+
+- **Data Model**: Low-level description of the data(1D floats, 3D vector of floats)
+- **Conceptual Model**: Mental construction(temperature, space)
+
+###Bertin's Visual Variables:
+
+**Objectives**: Points, Lines, Areas
+
+**Channels**: Position, Size, (Grey)Value, Texture, Color, Orientation, Shape
+
+- **Points**: Strongest visual variable; Suitable for all data types
+  * Sometimes not available
+  * Cluttering
+- **Size & Length**: Good visual variable; Easy to see whether one is bigger; Grouping works
+  * Good for aligned bars
+  * OK for changes in length
+  * Bad for changes in area
+- **Shape**: Great to recognize many classes
+  * No grouping, ordering
+- **Value**: Good for quantitative data when length & size are used; Supports grouping; Is preattentive if sufficiently different
+  * Not very many shades recognizable
+- **Color**: Good for qualitative data; Is preattentive if sufficiently different
+  * Limited number of classes
+  * Not good for quantitative data
+  * Lots of pitfalls! Be careful!
+
+###Characteristics of Visual Variables:
+
+- **Selective**: Is a mark distinct from other marks?
+- **Associative**: Does it supporting grouping?
+- **Quantitative**: Can we quantify the difference between two marks?
+- **Order**: Can we see a change in order?
+- **Length**: How many unique marks can we make?
+
+###Graphical Perception:
+![Bertin 1967](https://farm8.staticflickr.com/7522/15136596914_c924f467cd_o.png)
+![Jock Mackinlay 1986](https://farm4.staticflickr.com/3943/15570732389_35336d58df_o.png)

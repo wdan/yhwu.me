@@ -7,7 +7,7 @@ footer: false
 My name is [Yanhong Wu (武延宏)](http://yhwu.me), currently a Ph.D. student at
 [VisLab](http://vis.cse.ust.hk), Department of Computer Science and Engineering, Hong Kong University of
 Science and Technology. My supervisor is [Prof. Huamin Qu](http://huamin.org). I got my bachelor
-degree at Software School, Fundan University in June 2013. During my college
+degree at Software School, Fudan University in June 2013. During my college
 study, I was an undergraduate researcher of Institute of Parallel and
 Distributed Systems, advised by [Prof. Haibo Chen](http://ipads.se.sjtu.edu.cn/pub/members/haibo_chen).
 
