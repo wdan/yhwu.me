@@ -6,7 +6,7 @@ comments: true
 sharing: true
 footer: true
 ---
-Harvard CS171 - Visualization by Hanspeter Pfister
+[Harvard CS171 - Visualization](http://www.cs171.org/2014/index.html#!index.md) by Hanspeter Pfister
 
 ##Lec.1 Introduction
 
@@ -93,3 +93,110 @@ design - E.Tufte
 ###Graphical Perception:
 ![Bertin 1967](https://farm8.staticflickr.com/7522/15136596914_c924f467cd_o.png)
 ![Jock Mackinlay 1986](https://farm4.staticflickr.com/3943/15570732389_35336d58df_o.png)
+
+##Lec.4 Interaction
+
+###The Shneiderman Mantra: Overview first, zoom and filter, and details on demand.
+
+- Focus + Context
+- Brushing & Linking
+- Filtering
+- Zooming
+- Animation
+
+##Lec.5 Networks & Trees
+
+TBD
+
+##Lec.6 Data Visualization Process & Graphs
+![Data Visualization Process](https://farm6.staticflickr.com/5605/15581412280_16fca354db_o.png)
+
+- **Target**
+  * Choose a specific domain
+  * Define research question(s)
+  * Find & clean the data
+- **Translate** (What? 80%)
+  * Formulate data analysis tasks
+  * Exploratory data analysis
+  * Transform & summarize data
+- **Design** (How? 20%)
+  * Design visual encodings
+  * Design interactions
+  * Sketch *many* ideas!
+- **Implement**
+  * Use code "sketches"
+  * Define data structures
+  * Find efficient algorithms
+- **Validate**
+  * Is the visualization effective?
+  * Does it support the tasks?
+  * Does it provide new insights?
+
+**Comparisions:** Bar Chart, Waterfall Chart, Dot Plots
+
+Bar Chart vs. Line Chart: Line implies trend. Do not use for categorical data.
+
+Two line segments are maximally discriminable when their average absolute angle is $45^\circ$.
+
+![Slope Ratio Comparisons](https://farm8.staticflickr.com/7537/15768246562_e931ef6f4d_o.png)
+
+**Trends Over Time:** Line Chart, Streamgraphs
+
+**Proportions:** Pie Chart, Donut CHart, Stacked Bar Chart, Small Multiples, Stacked Area Chart
+
+**Distribution:** Histogram, Density Plots, Box & Whisker Plots
+
+**Correlations:** Scatterplots, Trend Lines, Residual Graph, Quadrants, Path Plots
+
+**Visualization Taxonomy:** [What Makes a Visualization Memorable?](http://vcg.seas.harvard.edu/publications/what-makes-visualization-memorable)
+
+##Lec.7 High-Dimensional Data
+
+![Highdimensional Data](https://farm8.staticflickr.com/7515/15581865510_5d501c5cf2_o.png)
+
+- How many dimensions?
+  * ~50: tractable with "just" vis
+  * ~1000 - need analytical methods
+- How many records?
+  * ~1000 - "just" vis is fine
+  * \>10,000 - need analytical methods
+- Homogeneity?
+  * Same data type?
+  * Same scales?
+
+###Geometric Methods
+
+- **Parallel Coordinates**: Shows primarily relationships between adjacent axis
+  * Each axis represents dimension
+  * Lines connecting axis represent records
+  * Suitable for all tabular data typesa (Also heterogeneous data)
+  * Limited scalability (~50 dimensions, ~1-5k records)
+  * Interaction is crucial: Axis reordering, Brushing, Filtering
+- **Star Plot**: Similar to parallel coordinates, radiate from a common origin
+- **Small Multiples**: Use multiple views to show different partitions of a dataset
+- **Scatterplot Matrices(SPLOM)**: Matrix of size d*d, each cell plots a scatterplot of two dimensions
+  * Limited scalability (~20 dimensions, ~500-1k records)
+  * Brushing is important
+  * Often combined with "Focus Scatterplot" as F+C technique
+- **Others**: Connected Charts, Domino, etc.
+
+###Pixel Based Methods
+
+- Each cell is a "pixel", value encoded in color/value
+- Meaning derived from ordering
+- If no ordering inherent, clustering is used
+- Good for homogeneous dataset
+- Color is relative!(Also should consider the blindness)
+
+###Dimensionality Reduction
+
+- Principal Component Analysis(PCA)
+  * Linear mapping, by order of variance
+- Multidimensional Scaling(MDS)
+  * Nonlinear, better suited for some dataset
+  * Popular for text analysis
+
+**Can we trust dimensionality reduction?**: [Interpretation and Trust: Designing Model-Driven Visualizations for Text Analysis](http://vis.stanford.edu/papers/designing-model-driven-vis)
+
+###Glyph
+![A conuterexample glyph design](https://farm8.staticflickr.com/7533/15581472959_70eb8c17b1_o.png)
