@@ -8,11 +8,13 @@ footer: false
 ---
 ##Visualization
 
- - [Harvard CS171](/notes/visualizations/cs171.html)
+ - [Harvard CS171 - Visualization](/notes/visualizations/cs171.html)
 
 ##Open Course
 
  - [Human Computer Interaction](/notes/open-course/hci.html)
 
+<!---
 ##Research Topics
  - [Social Network Analysis](/notes/research-topics/sna.html)
+-->

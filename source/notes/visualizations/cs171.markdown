@@ -199,4 +199,226 @@ Two line segments are maximally discriminable when their average absolute angle 
 **Can we trust dimensionality reduction?**: [Interpretation and Trust: Designing Model-Driven Visualizations for Text Analysis](http://vis.stanford.edu/papers/designing-model-driven-vis)
 
 ###Glyph
-![A conuterexample glyph design](https://farm8.staticflickr.com/7533/15581472959_70eb8c17b1_o.png)
+![A conuterexample glyph design](https://farm8.staticflickr.com/7533/15581472959_8f5d941014_o.png)
+
+##Lec.8 Text and Document Visualization
+
+**Features of Text**:
+
+- Abstract
+- General for mental concepts
+- Different across population groups
+- Linear perception
+- Semi-structured
+- Legibility!
+
+**Vis for Text Collections**:
+
+- [TagClouds](http://www.flickr.com/photos/tags/)
+- [WordCloud](http://www.wordle.net/)
+- [The Word Tree](https://www.cg.tuwien.ac.at/courses/InfoVis/papers/InfoVis2008%20The%20Word%20Tree,%20an%20Interactive%20Visual%20Concordance%20[Wattenberg].pdf)
+- [Mapping Text with Phrase Nets](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5290726)
+- [DocuBurst(based on WordNet)](http://vialab.science.uoit.ca/docuburst/)
+
+**Vis for Large Document Collections**:
+
+- [Bohemian bookshelf](http://www.alicethudt.de/BohemianBookshelf/)
+- [DocumentCards](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5290723)
+- [Semanticons](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2005.00889.x/full)
+
+**Others**:
+
+- [Text in Vis Storytelling](http://idl.cs.washington.edu/papers/narrative/)
+- [Time-Evolving Document Collections](http://mariandoerk.de/visualbackchannel/infovis2010.pdf)
+- [Storyline](https://xkcd.com/657/)
+
+##Lec.9 Perception
+
+![Receptive Fields](https://farm9.staticflickr.com/8627/15156062234_e50bbd6b3d_o.png)
+
+**Hallucination**:
+
+- [Herman Grid Effect](http://en.wikipedia.org/wiki/Grid_illusion)
+- [Cornsweet Illusion](http://en.wikipedia.org/wiki/Cornsweet_illusion)
+- [Others](http://en.wikipedia.org/wiki/List_of_optical_illusions)
+
+###Tips:
+
+1. We are scanning visualizations in **reading order** and are attracted to **titles**, **text**, and **labels**. Put titles at the **top left** and put labels and textual explanations **close** to the visualization.
+2. Our visual system sees differences, **not** absolute values, and is attracted to high-contrast edges. Maximize **contrast** between visual elements to make them **stand out** and avoid busy textures.
+3. Draw the user's eye to the most important part of the visualization. Provide a visual **hierarchy** of imnformation that will help make it clear to the user how they should interact with the information.
+4. We can easily see objects that are different color or that are in motion. Use **color** and **motion** sparingly to make the important information pop out.
+5. The brain is organized hierarchically, with higher brain regions processing more abstract features. **User-recognizable objects** in a visualization will be processed **differently** than **low-level features**.
+6. Some channels are integral and cannot be separated without a lot of cognitive effort. Be careful whenever you use **multiple channels** to encode information.
+
+![Separable - Integral](https://farm8.staticflickr.com/7564/15777664542_d18333058f_o.png)
+
+###Gestalt Principles
+
+Proximity, Similarity, Connection, Enclosure, Grouping, Continuity, Closure, Symmetry, Figure/Ground, Common Fate.
+
+![Gestalt Principles](https://farm6.staticflickr.com/5611/15590317299_7c56e4eb14_o.png)
+
+##Lec.10 Color
+
+“... avoiding catastrophe becomes the first principle in bringing color to information: Above all, do no harm.” --E.R. Tufte
+
+![Color Models](https://farm6.staticflickr.com/5610/15591009447_77db27e011_o.png)
+
+**Additive Color Mixing**:  When colors combine by *adding* their spectra
+
+- Monitors, Projectors, Slide Film, etc.
+
+![Additive Color Mixing](https://farm9.staticflickr.com/8129/15777762122_bb32504223_o.png)
+
+**Subtractive Color Mixing**: When colors combine by *multiplying* their spectra
+
+- Light reflecting off a surface, optical filters, crayons, etc.
+
+![Subtractive Color Mixing](https://farm8.staticflickr.com/7489/15156240714_bdabec22a4_o.png)
+
+###Visual Cones:
+
+![Cone Response](https://farm8.staticflickr.com/7488/15591085587_dac700d82e_o.png)
+
+![Color Opponency Encoding](https://farm9.staticflickr.com/8611/15774381641_19caceaf63_o.png)
+
+###Color Perception:
+
+Higher contrast sensitivity in luminance than in chrominance.
+
+[Bezold Sperading Effect](http://en.wikipedia.org/wiki/Bezold_effect)
+
+[A Color-Caused Optical Illusion on a Statistical Graph](http://amstat.tandfonline.com/doi/abs/10.1080/00031305.1983.10482720)
+
+**Color Blindness**:
+  - Red / Green deficiencies: No L cones or No M cones
+  - Blue /Yellow deficiencies: No S cones
+
+About 7-10% of the male population is red-green colorblind. Make sure that colors are not your only method of conveying important information.
+
+###Color Space:
+
+- RGB Color Space:
+  * Additive system
+  * Colors that can be represented by computer monitors
+  * Not perceptually uniform
+- HSL Color Space
+  * Hue - what people think of color
+  * Saturation - distance from grey
+  * Luminance - from dark to light
+  * Not perceptually uniform - brightness of hues seems to vary
+- LAB / HCL Color Spaces
+  * Perceptually uniform!
+  * L - Luminance
+  * AB - approximate R/G and Y/B opponent channels
+  * HCL: Hue-Chroma-Lightness: Cylindrical transformation of LAB
+- Munsell Color Space
+  * Perceptually uniform version of HSL
+  * Surface colors, not emitted light
+  * Used for paint swatches
+
+**Colors for Nominal Data**:
+
+- Ware suggests:
+  * red, green, yellow, blue, black, white
+  * pink, cyan, grey, orange, brown, purple
+
+Nominal colors, sequential colors, diverging colors.
+
+##Lect.11 Cognition
+
+**Perception vs. Cognition**:
+
+- **Perception**: About the nature of the signals coming in; What you see
+- **Cognition**: About how you understand and interpret what you see
+
+Vision is "Constructed" top down from the input.
+
+"What you see when you see a thing depends on what the thing **is**. What you see the thing **as** depends on what you know about what you are seeing."
+
+![Overview of Information Processing](https://farm8.staticflickr.com/7511/15774471701_e37c91b9a7_o.png)
+
+###Image Gist
+
+- From one glance to the next, the most of the visual information is a **summary** of what's there, which **lacks local detail**.
+  * The **gist** refers to the visual information perceived after/during a glance at an image
+  * In a glance(~100ms), we remember the meaning of an image and its global layout 
+  * Some objects and details are forgotten
+
+**Tips**:
+
+- Image gist gives you **layout**
+- Can give you general categorization info but lacks detail
+- Atten is required to get specific details
+
+###Visual Attention
+
+- Attentiion is Selective
+  * Attentional blindness
+  * Attention to one aspect or feature of the input suppresses processing of other features
+- Where people look depends on knowledge
+  * People learn something more **easily** if they can relate it to something they already **know**
+
+**Tips**:
+
+- To find meaning in what we see we must selectively pay attention to what is important
+- Low-level vision is driven by object features rather than a conscious effort where to look(e.g., pre-attentive processing)
+- Attention is driven by preexisting knowledge, expectations, and goals stored in long-term memory 
+
+###Visual Working Memory
+
+Georage Miller's 7$\pm$2 rule; Cowen: 3-4 visual objects
+
+The number of items that can be held in VSTM depends on their complexity.
+
+###Visual Long Term Memory
+
+**What we know**: People can remember thousands of scenes.
+
+**What we don't know**: What people are remembering for each item?
+
+- "Gist" Only? Sparse detail? Highly Detailed?
+
+**Hypothesises**:
+
+- People only remember the **gist**
+  * Exemplars of the same category will interfere
+- Efficient recognition; no interferenec
+  * Representation of each image has a **unique code** that distinguishes itself from all the other images
+
+###What Makes a Visualization Memorable?
+
+- It contains human distinguishable objects
+- It is a distinct visualization type
+- It is colorful
+- It is visually dense
+- It has a low data-to-ink ratio
+
+###Conclusion
+
+- **Gist**
+  * Spatial layout
+  * Basic level category
+  * Experience of rich percept
+  * No local details
+- **Attention & eye movements**
+  * Where you look depends on: salience, task-demands, prior knowledge
+  * Attending to specific areas fills in local details
+- **Working memory**
+  * Limited capacity
+  * Amount of information depends on experience and complexity
+  * Eye movements are cheap; memory is expensive
+- **Long-term memory**
+  * Massive capcacity
+  * Can be surprisingly detailed!
+  * Aggregate visual experience
+  * Provide 'chunks' for working memory and 'guidance' for attention
+
+##Lec.12 Storytelling
+
+![Storytelling I](https://farm8.staticflickr.com/7474/15778065152_9f5db10a46_o.png)
+
+![Storytelling II](https://farm8.staticflickr.com/7501/15752796576_144aa9ef26_o.png)
+
+![Design Space](https://farm8.staticflickr.com/7468/15776499845_6b9922b272_o.png)
