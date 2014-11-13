@@ -11,7 +11,7 @@ degree at Software School, Fudan University in June 2013. During my college
 study, I was an undergraduate researcher of Institute of Parallel and
 Distributed Systems, advised by [Prof. Haibo Chen](http://ipads.se.sjtu.edu.cn/pub/members/haibo_chen).
 
-My research interests include **Information Visualization**, **Visual Analytics** and **Human-Computer Interaction**.
+My research interests include *Information Visualization*, *Visual Analytics* and *Human-Computer Interaction*.
 
 I love Computer Science and I usually study interesting topics like
 Functional Programming, Machine Learning and Synchronization Primitives as
