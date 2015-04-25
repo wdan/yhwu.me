@@ -6,6 +6,11 @@ comments: false
 sharing: true
 footer: false
 ---
+
+##Research
+
+ - [Reading List](/notes/research/readinglist.html)
+
 ##Visualization
 
  - [Harvard CS171 - Visualization](/notes/visualizations/cs171.html)
